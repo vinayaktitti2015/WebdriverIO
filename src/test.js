@@ -9,7 +9,7 @@ var options = {
 };
 
 webdriverio.
-          remote(options).init().url('http://www.newlaunch.iproperty.com.my')
+          remote(options).init().url('http://www.iproperty.com.my')
              .getTitle().then(function(title){
                   console.log('Title was: ' + title);
                 })

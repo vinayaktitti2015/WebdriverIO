@@ -1,0 +1,28 @@
+{
+  "name": "webdriverio-test",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "wdio.conf.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "wdio-dot-reporter": "^0.0.8",
+    "wdio-mocha-framework": "^0.5.10",
+    "webdriverio": "^4.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinayaktitti2015/WebdriverIO.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinayaktitti2015/WebdriverIO/issues"
+  },
+  "homepage": "https://github.com/vinayaktitti2015/WebdriverIO#readme"
+}
