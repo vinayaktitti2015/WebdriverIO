@@ -1,0 +1,108 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1499953797347' stop='1499953818050'>
+    <name>webdriver.io page</name>
+    <title>webdriver.io page</title>
+    <test-cases>
+        <test-case start='1499953797361' status='broken' stop='1499953807471'>
+            <name>should have the right title</name>
+            <title>should have the right title</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"firefox"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/home/vinayak/Documents/workspace/webdriverio-test/test/specs/spec.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1499953797463' status='broken' stop='1499953807471'>
+                    <name>POST /wd/hub/session/2b957cb9-79f5-47a3-afea-3fd991f5394a/url</name>
+                    <title>POST /wd/hub/session/2b957cb9-79f5-47a3-afea-3fd991f5394a/url</title>
+                    <attachments>
+                        <attachment title='Request' source='a7b74ad5-48db-481b-845b-b75b064f9bf3-attachment.json' type='application/json' size='37'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Timeout of 10000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves.</message>
+                <stack-trace>Error: Timeout of 10000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves.
+                    at Timeout.&lt;anonymous> (/home/vinayak/Documents/workspace/webdriverio-test/node_modules/mocha/lib/runnable.js:232:19)
+                    at ontimeout (timers.js:488:11)
+                    at tryOnTimeout (timers.js:323:5)
+                    at Timer.listOnTimeout (timers.js:283:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1499953807499' status='broken' stop='1499953817997'>
+            <name>shoukd be able to filter for commands</name>
+            <title>shoukd be able to filter for commands</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"firefox"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/home/vinayak/Documents/workspace/webdriverio-test/test/specs/spec.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1499953807521' status='passed' stop='1499953811045'>
+                    <name>POST /wd/hub/session/2b957cb9-79f5-47a3-afea-3fd991f5394a/url</name>
+                    <title>POST /wd/hub/session/2b957cb9-79f5-47a3-afea-3fd991f5394a/url</title>
+                    <attachments>
+                        <attachment title='Request' source='d89ffdad-cfa7-474a-be94-700cee06cb8b-attachment.json' type='application/json' size='45'/>
+                        <attachment title='Response' source='0475e124-bf5f-4332-8156-7e333fe4eecf-attachment.json' type='application/json' size='196'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1499953811103' status='passed' stop='1499953815936'>
+                    <name>GET /wd/hub/session/2b957cb9-79f5-47a3-afea-3fd991f5394a/title</name>
+                    <title>GET /wd/hub/session/2b957cb9-79f5-47a3-afea-3fd991f5394a/title</title>
+                    <attachments>
+                        <attachment title='Response' source='2b47b9c9-b4d1-45df-b191-e759904adab1-attachment.json' type='application/json' size='196'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1499953815972' status='passed' stop='1499953816110'>
+                    <name>POST /wd/hub/session/2b957cb9-79f5-47a3-afea-3fd991f5394a/element</name>
+                    <title>POST /wd/hub/session/2b957cb9-79f5-47a3-afea-3fd991f5394a/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ef5c6b8f-9250-4874-a3fb-fe3f72e369d8-attachment.json' type='application/json' size='64'/>
+                        <attachment title='Response' source='fa494bbb-5922-465b-a83d-c9a7bdb0a982-attachment.json' type='application/json' size='215'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1499953816440' status='passed' stop='1499953817146'>
+                    <name>POST /wd/hub/session/2b957cb9-79f5-47a3-afea-3fd991f5394a/element/0/clear</name>
+                    <title>POST /wd/hub/session/2b957cb9-79f5-47a3-afea-3fd991f5394a/element/0/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='50bcfb2a-ce22-4f4d-aa49-ef25a4ccbeb2-attachment.json' type='application/json' size='196'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1499953817148' status='broken' stop='1499953817997'>
+                    <name>POST /wd/hub/session/2b957cb9-79f5-47a3-afea-3fd991f5394a/element/0/value</name>
+                    <title>POST /wd/hub/session/2b957cb9-79f5-47a3-afea-3fd991f5394a/element/0/value</title>
+                    <attachments>
+                        <attachment title='Request' source='0358d2ab-6b72-40dc-877c-997fc8d60bf0-attachment.json' type='application/json' size='95'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1499953818041' status='undefined'>
+                    <name>POST /wd/hub/session/2b957cb9-79f5-47a3-afea-3fd991f5394a/elements</name>
+                    <title>POST /wd/hub/session/2b957cb9-79f5-47a3-afea-3fd991f5394a/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='0af59940-8308-4ca3-9d6f-c0ed1f6407a5-attachment.json' type='application/json' size='67'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='4e1561ff-5a38-47ec-b815-c9af5a8cba8f-attachment.json' type='application/json' size='222'/>
+                <attachment title='Response' source='21fcfd29-25ac-432a-b655-fff394a510af-attachment.json' type='application/json' size='196'/>
+            </attachments>
+            <failure>
+                <message>Timeout of 10000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves.</message>
+                <stack-trace>Error: Timeout of 10000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves.
+                    at Timeout.&lt;anonymous> (/home/vinayak/Documents/workspace/webdriverio-test/node_modules/mocha/lib/runnable.js:232:19)
+                    at ontimeout (timers.js:488:11)
+                    at tryOnTimeout (timers.js:323:5)
+                    at Timer.listOnTimeout (timers.js:283:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

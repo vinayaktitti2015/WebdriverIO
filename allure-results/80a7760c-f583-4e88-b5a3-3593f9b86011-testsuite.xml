@@ -1,0 +1,88 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1500553502058' stop='1500553506022'>
+    <name>login form</name>
+    <title>login form</title>
+    <test-cases>
+        <test-case start='1500553502067' status='broken' stop='1500553506015'>
+            <name>should deny access with wrong credentials</name>
+            <title>should deny access with wrong credentials</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"firefox"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/home/vinayak/Documents/workspace/webdriverio-test/test/specs/login.spec.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1500553502108' status='passed' stop='1500553504779'>
+                    <name>POST /wd/hub/session/e1193c14-69e2-4325-93f2-2fd4a8d4a09e/url</name>
+                    <title>POST /wd/hub/session/e1193c14-69e2-4325-93f2-2fd4a8d4a09e/url</title>
+                    <attachments>
+                        <attachment title='Request' source='57f66cf0-bd4f-4d34-954d-ef25091f7e0b-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='e62d46d2-1484-4db3-8a63-c83a6843b85d-attachment.json' type='application/json' size='194'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1500553504810' status='passed' stop='1500553504933'>
+                    <name>POST /wd/hub/session/e1193c14-69e2-4325-93f2-2fd4a8d4a09e/element</name>
+                    <title>POST /wd/hub/session/e1193c14-69e2-4325-93f2-2fd4a8d4a09e/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ac463a11-baae-48f7-9549-c2acf68b28e4-attachment.json' type='application/json' size='49'/>
+                        <attachment title='Response' source='3f064e3e-eb48-4a36-80b1-d88dc3b641f6-attachment.json' type='application/json' size='222'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1500553504957' status='passed' stop='1500553505264'>
+                    <name>POST /wd/hub/session/e1193c14-69e2-4325-93f2-2fd4a8d4a09e/element/0/clear</name>
+                    <title>POST /wd/hub/session/e1193c14-69e2-4325-93f2-2fd4a8d4a09e/element/0/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='b7709333-86ee-43e1-a16f-7f2d2ab6ba80-attachment.json' type='application/json' size='196'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1500553505269' status='passed' stop='1500553505550'>
+                    <name>POST /wd/hub/session/e1193c14-69e2-4325-93f2-2fd4a8d4a09e/element/0/value</name>
+                    <title>POST /wd/hub/session/e1193c14-69e2-4325-93f2-2fd4a8d4a09e/element/0/value</title>
+                    <attachments>
+                        <attachment title='Request' source='48cddbfe-1508-420e-9cdf-7d3f03a74124-attachment.json' type='application/json' size='221'/>
+                        <attachment title='Response' source='d5e10c41-0118-4c9f-9764-f13e0d8841b5-attachment.json' type='application/json' size='196'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1500553505571' status='passed' stop='1500553505733'>
+                    <name>POST /wd/hub/session/e1193c14-69e2-4325-93f2-2fd4a8d4a09e/element</name>
+                    <title>POST /wd/hub/session/e1193c14-69e2-4325-93f2-2fd4a8d4a09e/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a2acf9d4-0052-4faf-a423-121215f7204b-attachment.json' type='application/json' size='49'/>
+                        <attachment title='Response' source='2564d8d7-a703-4ea7-bd25-41271bdad7fe-attachment.json' type='application/json' size='221'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1500553505748' status='passed' stop='1500553505845'>
+                    <name>POST /wd/hub/session/e1193c14-69e2-4325-93f2-2fd4a8d4a09e/element/1/clear</name>
+                    <title>POST /wd/hub/session/e1193c14-69e2-4325-93f2-2fd4a8d4a09e/element/1/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='7e604c3f-6e1a-4f11-b8a7-33abebbb9ac7-attachment.json' type='application/json' size='194'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1500553505845' status='passed' stop='1500553505999'>
+                    <name>POST /wd/hub/session/e1193c14-69e2-4325-93f2-2fd4a8d4a09e/element/1/value</name>
+                    <title>POST /wd/hub/session/e1193c14-69e2-4325-93f2-2fd4a8d4a09e/element/1/value</title>
+                    <attachments>
+                        <attachment title='Request' source='3e00b0ba-c9cb-4c36-917c-0a26f461bc28-attachment.json' type='application/json' size='151'/>
+                        <attachment title='Response' source='7bab97ce-6f97-4f20-bb3a-e50180e3a5f4-attachment.json' type='application/json' size='196'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'submitForm' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'submitForm' of undefined
+                    at Page.value (/home/vinayak/Documents/workspace/webdriverio-test/test/pageobjects/login.pageobjects.js:17:20)
+                    at Context.&lt;anonymous> (/home/vinayak/Documents/workspace/webdriverio-test/test/specs/login.spec.js:10:18)
+                    at Promise (&lt;anonymous>)
+                    at F (/home/vinayak/Documents/workspace/webdriverio-test/node_modules/core-js/library/modules/_export.js:35:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

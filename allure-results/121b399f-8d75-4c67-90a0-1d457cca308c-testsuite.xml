@@ -1,0 +1,99 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1500304119463' stop='1500304148862'>
+    <name>webdriver.io page</name>
+    <title>webdriver.io page</title>
+    <test-cases>
+        <test-case start='1500304119466' status='passed' stop='1500304135601'>
+            <name>should have the right title</name>
+            <title>should have the right title</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"firefox"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/home/vinayak/Documents/workspace/webdriverio-test/test/specs/spec.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1500304119507' status='passed' stop='1500304134842'>
+                    <name>POST /wd/hub/session/9042746f-fab9-48f3-901c-16199fcacc4c/url</name>
+                    <title>POST /wd/hub/session/9042746f-fab9-48f3-901c-16199fcacc4c/url</title>
+                    <attachments>
+                        <attachment title='Request' source='a7da4dba-bfe4-4109-8dfc-7e5e718c3ade-attachment.json' type='application/json' size='37'/>
+                        <attachment title='Response' source='2d0912f4-59e1-410f-b4d1-86643024769f-attachment.json' type='application/json' size='196'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1500304134882' status='passed' stop='1500304135575'>
+                    <name>GET /wd/hub/session/9042746f-fab9-48f3-901c-16199fcacc4c/title</name>
+                    <title>GET /wd/hub/session/9042746f-fab9-48f3-901c-16199fcacc4c/title</title>
+                    <attachments>
+                        <attachment title='Response' source='ec52a844-1a6e-4acc-961a-01450a9c75eb-attachment.json' type='application/json' size='238'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1500304135616' status='broken' stop='1500304148824'>
+            <name>should be able to filter results</name>
+            <title>should be able to filter results</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"firefox"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/home/vinayak/Documents/workspace/webdriverio-test/test/specs/spec.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1500304135626' status='passed' stop='1500304145781'>
+                    <name>POST /wd/hub/session/9042746f-fab9-48f3-901c-16199fcacc4c/url</name>
+                    <title>POST /wd/hub/session/9042746f-fab9-48f3-901c-16199fcacc4c/url</title>
+                    <attachments>
+                        <attachment title='Request' source='0ea20b1a-9728-4214-9fa5-2d84510391d0-attachment.json' type='application/json' size='45'/>
+                        <attachment title='Response' source='ce428911-32a1-4369-9c6b-bcd1ad19637c-attachment.json' type='application/json' size='195'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1500304145803' status='passed' stop='1500304145983'>
+                    <name>POST /wd/hub/session/9042746f-fab9-48f3-901c-16199fcacc4c/element</name>
+                    <title>POST /wd/hub/session/9042746f-fab9-48f3-901c-16199fcacc4c/element</title>
+                    <attachments>
+                        <attachment title='Request' source='e53b5ec8-b3ca-476f-9844-694cbe314747-attachment.json' type='application/json' size='64'/>
+                        <attachment title='Response' source='ac373e85-3a00-4d13-9fda-245ee8c06d0f-attachment.json' type='application/json' size='220'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1500304146017' status='passed' stop='1500304146966'>
+                    <name>POST /wd/hub/session/9042746f-fab9-48f3-901c-16199fcacc4c/element/0/clear</name>
+                    <title>POST /wd/hub/session/9042746f-fab9-48f3-901c-16199fcacc4c/element/0/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='379c8564-4c7b-4274-8608-9ee7da1dd832-attachment.json' type='application/json' size='196'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1500304146972' status='passed' stop='1500304148354'>
+                    <name>POST /wd/hub/session/9042746f-fab9-48f3-901c-16199fcacc4c/element/0/value</name>
+                    <title>POST /wd/hub/session/9042746f-fab9-48f3-901c-16199fcacc4c/element/0/value</title>
+                    <attachments>
+                        <attachment title='Request' source='4d217975-371a-4522-9d11-60d2f70f3569-attachment.json' type='application/json' size='95'/>
+                        <attachment title='Response' source='18c476da-da22-4d1e-8e45-aa71d177e9d5-attachment.json' type='application/json' size='195'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1500304148397' status='passed' stop='1500304148736'>
+                    <name>POST /wd/hub/session/9042746f-fab9-48f3-901c-16199fcacc4c/element</name>
+                    <title>POST /wd/hub/session/9042746f-fab9-48f3-901c-16199fcacc4c/element</title>
+                    <attachments>
+                        <attachment title='Request' source='7ac7e2cf-f0e4-46b7-8be3-e4e498250d87-attachment.json' type='application/json' size='68'/>
+                        <attachment title='Response' source='d0379603-d334-4bd5-9241-b3a8c7113339-attachment.json' type='application/json' size='222'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>$(...).filter is not a function</message>
+                <stack-trace>TypeError: $(...).filter is not a function
+                    at Context.&lt;anonymous> (/home/vinayak/Documents/workspace/webdriverio-test/test/specs/spec.js:20:55)
+                    at Promise (&lt;anonymous>)
+                    at F (/home/vinayak/Documents/workspace/webdriverio-test/node_modules/core-js/library/modules/_export.js:35:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,106 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1499874579995' stop='1499874594753'>
+    <name>webdriver.io page</name>
+    <title>webdriver.io page</title>
+    <test-cases>
+        <test-case start='1499874580014' status='broken' stop='1499874589802'>
+            <name>should have the right title</name>
+            <title>should have the right title</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"firefox"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/home/vinayak/Documents/workspace/webdriverio-test/test/specs/spec.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1499874580080' status='passed' stop='1499874589622'>
+                    <name>POST /wd/hub/session/0832d544-2147-4c60-88d8-0614a5126778/url</name>
+                    <title>POST /wd/hub/session/0832d544-2147-4c60-88d8-0614a5126778/url</title>
+                    <attachments>
+                        <attachment title='Request' source='b99d8371-a1a8-4258-8f4d-149af7ef13cf-attachment.json' type='application/json' size='37'/>
+                        <attachment title='Response' source='74263327-8b21-406c-94a5-2c703f22b746-attachment.json' type='application/json' size='196'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1499874589642' status='passed' stop='1499874589759'>
+                    <name>GET /wd/hub/session/0832d544-2147-4c60-88d8-0614a5126778/title</name>
+                    <title>GET /wd/hub/session/0832d544-2147-4c60-88d8-0614a5126778/title</title>
+                    <attachments>
+                        <attachment title='Response' source='e3fa3b18-625f-48a3-b7a9-64b228e3ca40-attachment.json' type='application/json' size='238'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>'WebdriverIO - WebDriver bindings for Node.js' == 'WebdriverIO -WebDriver'</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: 'WebdriverIO - WebDriver bindings for Node.js' == 'WebdriverIO -WebDriver'
+                    at Context.&lt;anonymous> (/home/vinayak/Documents/workspace/webdriverio-test/test/specs/spec.js:9:20)
+                    at Promise (&lt;anonymous>)
+                    at F (/home/vinayak/Documents/workspace/webdriverio-test/node_modules/core-js/library/modules/_export.js:35:28)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1499874589834' status='failed' stop='1499874594752'>
+            <name>shoukd be able to filter for commands</name>
+            <title>shoukd be able to filter for commands</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"firefox"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/home/vinayak/Documents/workspace/webdriverio-test/test/specs/spec.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1499874589858' status='passed' stop='1499874593299'>
+                    <name>POST /wd/hub/session/0832d544-2147-4c60-88d8-0614a5126778/url</name>
+                    <title>POST /wd/hub/session/0832d544-2147-4c60-88d8-0614a5126778/url</title>
+                    <attachments>
+                        <attachment title='Request' source='d19b661c-8a1d-4700-890f-e33fddec0786-attachment.json' type='application/json' size='45'/>
+                        <attachment title='Response' source='00921e34-3388-4b7c-b78e-66cb80a10317-attachment.json' type='application/json' size='195'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1499874593334' status='passed' stop='1499874593403'>
+                    <name>POST /wd/hub/session/0832d544-2147-4c60-88d8-0614a5126778/element</name>
+                    <title>POST /wd/hub/session/0832d544-2147-4c60-88d8-0614a5126778/element</title>
+                    <attachments>
+                        <attachment title='Request' source='3f3284fb-6ceb-4b67-8b4a-58a9feab9b29-attachment.json' type='application/json' size='64'/>
+                        <attachment title='Response' source='2cac75e6-80ec-4c8a-9d8f-6863f2577df4-attachment.json' type='application/json' size='221'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1499874593428' status='passed' stop='1499874593714'>
+                    <name>POST /wd/hub/session/0832d544-2147-4c60-88d8-0614a5126778/element/0/clear</name>
+                    <title>POST /wd/hub/session/0832d544-2147-4c60-88d8-0614a5126778/element/0/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='fec4b8f6-06e4-47b9-ae58-4129f8cf0d51-attachment.json' type='application/json' size='195'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1499874593716' status='passed' stop='1499874594570'>
+                    <name>POST /wd/hub/session/0832d544-2147-4c60-88d8-0614a5126778/element/0/value</name>
+                    <title>POST /wd/hub/session/0832d544-2147-4c60-88d8-0614a5126778/element/0/value</title>
+                    <attachments>
+                        <attachment title='Request' source='54c234e0-d08b-42c4-a124-f3ef37d558f0-attachment.json' type='application/json' size='95'/>
+                        <attachment title='Response' source='c4f1c5b7-768a-4e40-968c-6c3d740c5c11-attachment.json' type='application/json' size='195'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1499874594595' status='passed' stop='1499874594648'>
+                    <name>POST /wd/hub/session/0832d544-2147-4c60-88d8-0614a5126778/elements</name>
+                    <title>POST /wd/hub/session/0832d544-2147-4c60-88d8-0614a5126778/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='afa127e3-efba-4341-b419-fa9994abb0b3-attachment.json' type='application/json' size='67'/>
+                        <attachment title='Response' source='ccbe21f7-8863-4507-b158-f60e888f1f6c-attachment.json' type='application/json' size='194'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected 0 to equal 3</message>
+                <stack-trace>AssertionError: expected 0 to equal 3
+                    at Context.&lt;anonymous> (/home/vinayak/Documents/workspace/webdriverio-test/test/specs/spec.js:25:36)
+                    at Promise (&lt;anonymous>)
+                    at F (/home/vinayak/Documents/workspace/webdriverio-test/node_modules/core-js/library/modules/_export.js:35:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

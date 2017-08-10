@@ -1,0 +1,10 @@
+{
+    "message": "Unknown wait type: pageLoad\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'vinayak-VirtualBox', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.8.0-58-generic', java.version: '1.8.0_131'\nDriver info: driver.version: unknown",
+    "type": "RuntimeError",
+    "seleniumStack": {
+        "status": 13,
+        "type": "UnknownError",
+        "message": "An unknown server-side error occurred while processing the command.",
+        "orgStatusMessage": "Unknown wait type: pageLoad\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'vinayak-VirtualBox', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.8.0-58-generic', java.version: '1.8.0_131'\nDriver info: driver.version: unknown"
+    }
+}

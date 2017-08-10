@@ -1,0 +1,50 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1500553412104' stop='1500553415725'>
+    <name>login form</name>
+    <title>login form</title>
+    <test-cases>
+        <test-case start='1500553412116' status='broken' stop='1500553415712'>
+            <name>should deny access with wrong credentials</name>
+            <title>should deny access with wrong credentials</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"firefox"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/home/vinayak/Documents/workspace/webdriverio-test/test/specs/login.spec.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1500553412148' status='passed' stop='1500553413271'>
+                    <name>POST /wd/hub/session/23db330a-c211-4d6c-bf85-3bdcbd1aff6c/url</name>
+                    <title>POST /wd/hub/session/23db330a-c211-4d6c-bf85-3bdcbd1aff6c/url</title>
+                    <attachments>
+                        <attachment title='Request' source='35703694-9198-4a44-b33f-9fbee5ebc0e2-attachment.json' type='application/json' size='55'/>
+                        <attachment title='Response' source='ba71edec-693d-4c3b-9126-d41d693593f6-attachment.json' type='application/json' size='196'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1500553413376' status='passed' stop='1500553415346'>
+                    <name>POST /wd/hub/session/23db330a-c211-4d6c-bf85-3bdcbd1aff6c/element</name>
+                    <title>POST /wd/hub/session/23db330a-c211-4d6c-bf85-3bdcbd1aff6c/element</title>
+                    <attachments>
+                        <attachment title='Request' source='62db9d3d-2e96-4095-aafa-6a78185d61d4-attachment.json' type='application/json' size='59'/>
+                        <attachment title='Response' source='9653826f-64a2-4268-8017-ee655a396d0a-attachment.json' type='application/json' size='141713'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1500553415356' status='passed' stop='1500553415668'>
+                    <name>GET /wd/hub/session/23db330a-c211-4d6c-bf85-3bdcbd1aff6c/screenshot</name>
+                    <title>GET /wd/hub/session/23db330a-c211-4d6c-bf85-3bdcbd1aff6c/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='599f5a50-d8c6-4535-ab65-2d500591fab3-attachment.png' type='image/png' size='13820'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>An element could not be located on the page using the given search parameters ("txtUserName").</message>
+                <stack-trace>Error: An element could not be located on the page using the given search parameters ("txtUserName").
+                    at setValue("stevenleeTest") - index.js:307:3</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

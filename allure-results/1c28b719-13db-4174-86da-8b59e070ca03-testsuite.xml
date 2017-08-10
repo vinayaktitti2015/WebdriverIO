@@ -1,0 +1,100 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1500383113745' stop='1500383141800'>
+    <name>webdriver.io page</name>
+    <title>webdriver.io page</title>
+    <test-cases>
+        <test-case start='1500383113750' status='broken' stop='1500383133805'>
+            <name>should have the right title</name>
+            <title>should have the right title</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"firefox"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/home/vinayak/Documents/workspace/webdriverio-test/test/specs/spec.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1500383113788' status='broken' stop='1500383133804'>
+                    <name>POST /wd/hub/session/56ba31be-17fd-4bee-a3b5-deda82e4c5dc/url</name>
+                    <title>POST /wd/hub/session/56ba31be-17fd-4bee-a3b5-deda82e4c5dc/url</title>
+                    <attachments>
+                        <attachment title='Request' source='8ae33ae6-3d4d-46a5-b06b-14377f647633-attachment.json' type='application/json' size='37'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Timeout of 20000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves.</message>
+                <stack-trace>Error: Timeout of 20000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves.
+                    at Timeout.&lt;anonymous> (/home/vinayak/Documents/workspace/webdriverio-test/node_modules/mocha/lib/runnable.js:232:19)
+                    at ontimeout (timers.js:488:11)
+                    at tryOnTimeout (timers.js:323:5)
+                    at Timer.listOnTimeout (timers.js:283:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1500383133852' status='pending' stop='1500383133852'>
+            <name>should be able to filter results</name>
+            <title>should be able to filter results</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1500383133853' status='broken' stop='1500383141778'>
+            <name>should able to get text</name>
+            <title>should able to get text</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"firefox"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/home/vinayak/Documents/workspace/webdriverio-test/test/specs/spec.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1500383133868' status='passed' stop='1500383138791'>
+                    <name>POST /wd/hub/session/56ba31be-17fd-4bee-a3b5-deda82e4c5dc/url</name>
+                    <title>POST /wd/hub/session/56ba31be-17fd-4bee-a3b5-deda82e4c5dc/url</title>
+                    <attachments>
+                        <attachment title='Request' source='78adcc81-7dfa-4e5b-b775-adb6421483e1-attachment.json' type='application/json' size='45'/>
+                        <attachment title='Response' source='9c429e3e-52a8-43a3-a17b-e0ae724ce047-attachment.json' type='application/json' size='196'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1500383138846' status='passed' stop='1500383139918'>
+                    <name>GET /wd/hub/session/56ba31be-17fd-4bee-a3b5-deda82e4c5dc/title</name>
+                    <title>GET /wd/hub/session/56ba31be-17fd-4bee-a3b5-deda82e4c5dc/title</title>
+                    <attachments>
+                        <attachment title='Response' source='e0dd3194-b906-437e-8fe5-cb133cb0270b-attachment.json' type='application/json' size='196'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1500383139952' status='passed' stop='1500383139985'>
+                    <name>POST /wd/hub/session/56ba31be-17fd-4bee-a3b5-deda82e4c5dc/element</name>
+                    <title>POST /wd/hub/session/56ba31be-17fd-4bee-a3b5-deda82e4c5dc/element</title>
+                    <attachments>
+                        <attachment title='Request' source='e856142b-d889-489e-8478-b60c3f4e38f0-attachment.json' type='application/json' size='55'/>
+                        <attachment title='Response' source='3089a2b8-361c-4199-93ee-681b4396d3af-attachment.json' type='application/json' size='206'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1500383141648' status='passed' stop='1500383141749'>
+                    <name>GET /wd/hub/session/56ba31be-17fd-4bee-a3b5-deda82e4c5dc/screenshot</name>
+                    <title>GET /wd/hub/session/56ba31be-17fd-4bee-a3b5-deda82e4c5dc/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='22663ce4-7884-41b5-a583-42701ff1d96b-attachment.png' type='image/png' size='19450'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='a03e726c-6343-4497-84e1-38f1b3235846-attachment.json' type='application/json' size='191513'/>
+            </attachments>
+            <failure>
+                <message>selector needs to be typeof `string`</message>
+                <stack-trace>Error: selector needs to be typeof `string`
+                    at getText([object Object]) - at elements([object Object]) - getText.js:18:17</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

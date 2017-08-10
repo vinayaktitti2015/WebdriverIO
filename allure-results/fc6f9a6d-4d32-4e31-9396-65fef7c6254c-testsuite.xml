@@ -1,0 +1,87 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1500553905844' stop='1500553909805'>
+    <name>login form</name>
+    <title>login form</title>
+    <test-cases>
+        <test-case start='1500553905848' status='broken' stop='1500553909798'>
+            <name>should allow access with Valid credentials</name>
+            <title>should allow access with Valid credentials</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"firefox"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/home/vinayak/Documents/workspace/webdriverio-test/test/specs/login.spec.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1500553905889' status='passed' stop='1500553908811'>
+                    <name>POST /wd/hub/session/ed89aafe-ea81-4794-b487-fd2ca8f14d0e/url</name>
+                    <title>POST /wd/hub/session/ed89aafe-ea81-4794-b487-fd2ca8f14d0e/url</title>
+                    <attachments>
+                        <attachment title='Request' source='c7614efe-c291-4132-ba4d-36d7a5461592-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='801c44cf-0dbc-420c-b1bb-b024fc878bd9-attachment.json' type='application/json' size='196'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1500553908836' status='passed' stop='1500553908901'>
+                    <name>POST /wd/hub/session/ed89aafe-ea81-4794-b487-fd2ca8f14d0e/element</name>
+                    <title>POST /wd/hub/session/ed89aafe-ea81-4794-b487-fd2ca8f14d0e/element</title>
+                    <attachments>
+                        <attachment title='Request' source='4aafb398-2086-47c9-8943-021f6a44f25c-attachment.json' type='application/json' size='49'/>
+                        <attachment title='Response' source='89e4b46a-d6cd-40d6-86b5-4f9d8c605f63-attachment.json' type='application/json' size='221'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1500553908915' status='passed' stop='1500553909107'>
+                    <name>POST /wd/hub/session/ed89aafe-ea81-4794-b487-fd2ca8f14d0e/element/0/clear</name>
+                    <title>POST /wd/hub/session/ed89aafe-ea81-4794-b487-fd2ca8f14d0e/element/0/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='35db2984-8d25-4651-96c3-2ed9329629a5-attachment.json' type='application/json' size='196'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1500553909108' status='passed' stop='1500553909409'>
+                    <name>POST /wd/hub/session/ed89aafe-ea81-4794-b487-fd2ca8f14d0e/element/0/value</name>
+                    <title>POST /wd/hub/session/ed89aafe-ea81-4794-b487-fd2ca8f14d0e/element/0/value</title>
+                    <attachments>
+                        <attachment title='Request' source='fcca52cb-0f70-40ec-a0da-40730c63d2ed-attachment.json' type='application/json' size='221'/>
+                        <attachment title='Response' source='a462f0ad-9a59-46d4-a589-72b6a626cab0-attachment.json' type='application/json' size='196'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1500553909420' status='passed' stop='1500553909541'>
+                    <name>POST /wd/hub/session/ed89aafe-ea81-4794-b487-fd2ca8f14d0e/element</name>
+                    <title>POST /wd/hub/session/ed89aafe-ea81-4794-b487-fd2ca8f14d0e/element</title>
+                    <attachments>
+                        <attachment title='Request' source='0d02ccb1-e17f-4a41-a7e3-0ba3bbf61ecb-attachment.json' type='application/json' size='49'/>
+                        <attachment title='Response' source='acbe5ab3-4681-4ca2-bfa7-303c842daff5-attachment.json' type='application/json' size='221'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1500553909554' status='passed' stop='1500553909629'>
+                    <name>POST /wd/hub/session/ed89aafe-ea81-4794-b487-fd2ca8f14d0e/element/1/clear</name>
+                    <title>POST /wd/hub/session/ed89aafe-ea81-4794-b487-fd2ca8f14d0e/element/1/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='aeed1512-ae09-4be0-9987-1e49f92de4a9-attachment.json' type='application/json' size='195'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1500553909630' status='passed' stop='1500553909781'>
+                    <name>POST /wd/hub/session/ed89aafe-ea81-4794-b487-fd2ca8f14d0e/element/1/value</name>
+                    <title>POST /wd/hub/session/ed89aafe-ea81-4794-b487-fd2ca8f14d0e/element/1/value</title>
+                    <attachments>
+                        <attachment title='Request' source='c0169fc3-6bf1-4a66-b08d-bb206489245a-attachment.json' type='application/json' size='151'/>
+                        <attachment title='Response' source='0ad5fdb8-44fc-42f1-b468-1539948c4f12-attachment.json' type='application/json' size='196'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'click' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'click' of undefined
+                    at Context.&lt;anonymous> (/home/vinayak/Documents/workspace/webdriverio-test/test/specs/login.spec.js:10:26)
+                    at Promise (&lt;anonymous>)
+                    at F (/home/vinayak/Documents/workspace/webdriverio-test/node_modules/core-js/library/modules/_export.js:35:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
