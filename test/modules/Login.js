@@ -6,8 +6,8 @@ var Login = function (){
 
   this.agentlogin = function(){
   LoginPage.open();
-  LoginPage.username.setValue('stevenleeTest');
-  LoginPage.password.setValue('Customertest1');
+  LoginPage.username.setValue('test123');
+  LoginPage.password.setValue('test123');
   LoginPage.submit();
   browser.waitForVisible('#locationBar');
 
